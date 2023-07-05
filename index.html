@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Jimmy’s Diner</h1>
+        <p>The best burgers and pizzas in town.</p>
+    </header>
+
+    <div class="gap"></div>
+
+    <main>
+        <div class="container" id="container">
+            <form id="form"></form>
+        </div>
+    </main>
+
+    <section class="your-order" id="your-order">
+        <h1>Your Order</h1>
+        <div id="checkout_items"></div>
+        <div class="border">
+            <div class="total">
+                <h3>Total Price</h3>
+                <h4 id="total_price">$15</h4>
+            </div>
+        </div>
+
+        <button class="complete-order">Complete Order</button>
+    </section>
+
+    <section class="thanks" id="thanks">
+        <h1>Thanks, James! Your order is on its way!</h1>
+    </section>
+
+    <footer></footer>
+
+    <div class="popup" id="popup">
+        <h1 class="popup-heading">Enter Card Details</h1>
+        <form>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <input type="text" id="card-number" name="card-number" placeholder="Enter card number" required>
+            <input type="password" id="ccv" name="ccv" placeholder="CCV" required>
+            <button type="submit" id="final">Pay</button>
+        </form>
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>

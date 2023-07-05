@@ -1,0 +1,240 @@
+/* General Styles */
+
+body {
+    margin: auto;
+    width: 600px;
+    font-family: 'Smythe', cursive;
+    position: relative;
+}
+
+/* Header Styles */
+
+header {
+    height: 167px;
+    width: 600px;
+    margin: 1px;
+
+    background-image: url("images/header.png");
+    background-size: cover;
+    color: white;
+    padding-top: 1px;
+    font-weight: 400;
+}
+
+header h1 {
+    margin: 56px 46px 0;
+    font-size: 39px;
+    line-height: 24px;
+}
+
+header p {
+    font-size: 22.42px;
+    margin: 16px 46px 57px;
+    line-height: 24px;
+}
+
+/* Container Styles */
+
+.container {
+    margin: auto;
+
+}
+
+/* Product Styles */
+
+.product {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0px 46px 45px 46px;
+    border-bottom: 1px solid #D2D2D2;
+    height: 140px;
+}
+
+.item:first-child {
+    margin-top: 67px;
+}
+
+.item button {
+    border: 1.5px solid #DEDEDE;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 32px;
+    font-weight: 200;
+    background: none;
+}
+
+img {
+    margin-right: 31px;
+}
+
+.item label {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+/* Your Order Styles */
+
+.your-order {
+    display: none;
+    /* Change to block to appear */
+    width: 508px;
+    margin: 45px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    height: 25px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto auto auto 0;
+    height: 24px;
+}
+
+.description button {
+    font-size: 12px;
+    color: #BBBBBB;
+    font-family: sans-serif;
+    border: none;
+    background: none;
+    margin-left: 13px;
+    align-self: center;
+}
+
+.info h4,
+.total h4 {
+    font-size: 20px;
+}
+
+.total h3 {
+    font-size: 28px;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 31px;
+    height: 24px;
+}
+
+.border {
+    border-top: 2px solid #393333;
+    height: 28px;
+    margin-top: 31px;
+}
+
+.complete-order {
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    background: #16DB99;
+    width: 508px;
+    height: 60px;
+    padding: 18px 175px 18px 194px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 53px;
+}
+
+/* Popup Styles */
+
+.popup {
+    position: absolute;
+    display: none;
+    /* Change to flex to appear */
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 524px;
+    height: 542.24px;
+    background: white;
+    margin: auto;
+    box-shadow: 0px 0px 255px #00000080;
+}
+
+.popup .popup-heading {
+    display: block;
+    margin-top: 47px;
+    margin-bottom: 46px;
+    font-size: 24px;
+    font-weight: 700px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.popup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+
+.popup button {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    background: #16DB99;
+    width: 476px;
+    height: 71px;
+    padding: 18px 175px 18px 194px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 46.4px;
+}
+
+.popup input {
+    width: 476px;
+    height: 71px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.popup input:not(:last-of-type) {
+    margin-bottom: 23px;
+}
+
+/* Thank you message */
+
+.thanks {
+    display: none;
+    /* Change to flex to appear */
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 252px;
+}
+
+.thanks h1 {
+    display: inline-block;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400px;
+    color: #065F46;
+    padding: 51px 66px 52px 59px;
+    background: #ECFDF5;
+    margin: 0px;
+}
